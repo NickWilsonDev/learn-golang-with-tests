@@ -1,6 +1,8 @@
-package learn_go_with_tests
+package helloworld
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestHello(t *testing.T) {
 	t.Run("saying hello to people", func(t *testing.T) {
